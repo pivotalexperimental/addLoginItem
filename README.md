@@ -13,5 +13,9 @@ To configure [ShiftIt](https://github.com/onsi/ShiftIt) to start automatically o
 ## But I don't want to install Xcode & compile
 Download the executable [here](https://github.com/downloads/pivotalexperimental/addLoginItem/addLoginItem); don't forget to turn on the execute bits!
 
+## How does it work?
+
+Essentially it's a LSSharedFileListInsertItemURL wrapper.
+
 # To whom do we complain?
 **addLoginItem** was originally written by [Onsi Fakhouri](https://github.com/onsi) and is maintained by [Colin Deeb](https://github.com/) and [Brian Cunnie](https://github.com/briancunnie) of Pivotal Labs.
