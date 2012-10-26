@@ -1,0 +1,242 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AEB415DE163B03B000AA2393 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB415DD163B03B000AA2393 /* Foundation.framework */; };
+		AEB415E1163B03B000AA2393 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB415E0163B03B000AA2393 /* main.m */; };
+		AEB415E5163B03B000AA2393 /* addLoginItem.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = AEB415E4163B03B000AA2393 /* addLoginItem.1 */; };
+		AEB415F0163B03D100AA2393 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB415EF163B03D100AA2393 /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AEB415D7163B03B000AA2393 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				AEB415E5163B03B000AA2393 /* addLoginItem.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AEB415D9163B03B000AA2393 /* addLoginItem */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = addLoginItem; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEB415DD163B03B000AA2393 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AEB415E0163B03B000AA2393 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AEB415E3163B03B000AA2393 /* addLoginItem-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "addLoginItem-Prefix.pch"; sourceTree = "<group>"; };
+		AEB415E4163B03B000AA2393 /* addLoginItem.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = addLoginItem.1; sourceTree = "<group>"; };
+		AEB415EF163B03D100AA2393 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEB415D6163B03B000AA2393 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEB415F0163B03D100AA2393 /* Cocoa.framework in Frameworks */,
+				AEB415DE163B03B000AA2393 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEB415CE163B03B000AA2393 = {
+			isa = PBXGroup;
+			children = (
+				AEB415EF163B03D100AA2393 /* Cocoa.framework */,
+				AEB415DF163B03B000AA2393 /* addLoginItem */,
+				AEB415DC163B03B000AA2393 /* Frameworks */,
+				AEB415DA163B03B000AA2393 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEB415DA163B03B000AA2393 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEB415D9163B03B000AA2393 /* addLoginItem */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEB415DC163B03B000AA2393 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AEB415DD163B03B000AA2393 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AEB415DF163B03B000AA2393 /* addLoginItem */ = {
+			isa = PBXGroup;
+			children = (
+				AEB415E0163B03B000AA2393 /* main.m */,
+				AEB415E4163B03B000AA2393 /* addLoginItem.1 */,
+				AEB415E2163B03B000AA2393 /* Supporting Files */,
+			);
+			path = addLoginItem;
+			sourceTree = "<group>";
+		};
+		AEB415E2163B03B000AA2393 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEB415E3163B03B000AA2393 /* addLoginItem-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEB415D8163B03B000AA2393 /* addLoginItem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEB415E8163B03B000AA2393 /* Build configuration list for PBXNativeTarget "addLoginItem" */;
+			buildPhases = (
+				AEB415D5163B03B000AA2393 /* Sources */,
+				AEB415D6163B03B000AA2393 /* Frameworks */,
+				AEB415D7163B03B000AA2393 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = addLoginItem;
+			productName = addLoginItem;
+			productReference = AEB415D9163B03B000AA2393 /* addLoginItem */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEB415D0163B03B000AA2393 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Pivotal Labs";
+			};
+			buildConfigurationList = AEB415D3163B03B000AA2393 /* Build configuration list for PBXProject "addLoginItem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AEB415CE163B03B000AA2393;
+			productRefGroup = AEB415DA163B03B000AA2393 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEB415D8163B03B000AA2393 /* addLoginItem */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEB415D5163B03B000AA2393 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEB415E1163B03B000AA2393 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AEB415E6163B03B000AA2393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AEB415E7163B03B000AA2393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AEB415E9163B03B000AA2393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "addLoginItem/addLoginItem-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AEB415EA163B03B000AA2393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "addLoginItem/addLoginItem-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEB415D3163B03B000AA2393 /* Build configuration list for PBXProject "addLoginItem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEB415E6163B03B000AA2393 /* Debug */,
+				AEB415E7163B03B000AA2393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEB415E8163B03B000AA2393 /* Build configuration list for PBXNativeTarget "addLoginItem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEB415E9163B03B000AA2393 /* Debug */,
+				AEB415EA163B03B000AA2393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEB415D0163B03B000AA2393 /* Project object */;
+}

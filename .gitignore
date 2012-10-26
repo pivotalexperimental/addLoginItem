@@ -1,0 +1,8 @@
+build
+release-notes-*
+addLoginItem-*.zip
+addLoginItem.xcodeproj/*.pbxuser
+addLoginItem.xcodeproj/*.perspectivev3
+DerivedData
+project.xcworkspace
+*.mode1v3
